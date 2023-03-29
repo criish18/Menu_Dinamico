@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  background-image: url(../img/fondo.png);
+}
+
+
+header{
+  width: 100%; 
+  height: 75px;
+  background: #b80404;
+  padding: 0px 20px;
+}
+.registro img{
+  width: 97px;
+}
+
+.registro{
+  max-width: 1500px;
+  margin: right;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.363);
+  font-size: 15px;
+  justify-content: space-around;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 20px 0 #000000;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.menu-horizontal > li > a {
+  display: block;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.menu-horizontal > li:hover {
+  background-color: white;
+  transition: all 0.2s linear;
+}
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 220px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -4%;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical li:hover {
+  background-color: rgb(228, 231, 30);
+}
+
+.menu-vertical li a {
+  display: block;
+  color: rgb(209, 12, 12);
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+}
+
+.menu-vertical > li {
+  margin-left: -31px;
+}
+
+.menu-horizontal li:hover {
+  display: block;
+}
+
+/* Rellenos */
+.texto {
+  text-align: justify;
+}
+
+.cuerpo {
+  background-color: rgba(255, 255, 255, 0.705);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 #000000;
+}
+
+/*Slider
+.contenedor{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#slider{
+  width: 2000px;
+  height: 220px;
+
+  background-image: url(../img/cintaPel.png);
+  background-size: 100% 100%;
+
+  animation: slider 20s infinite linear;
+}
+
+@keyframes slider {
+  to {
+    background-position: 2000px;
+
+  }
+}
+
+*/
+/*Footer*/
+
+footer{
+  background-color: #9e0808;
+  width: 100%;
+  height: 75px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.informacion{
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+  font-size: 15px;
+} 

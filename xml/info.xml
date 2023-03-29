@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+
+  <seccion>
+    <padre>Peliculas</padre>
+    <hijo>Comedia</hijo>
+    <nieto>Comedia Romantica</nieto>
+    <hijo>Accion</hijo>
+    <hijo>Romance</hijo>
+    <hijo>Para ver en familia</hijo>
+  </seccion>
+  
+  <seccion>
+    <padre>Series</padre>
+    <hijo>Internacionales</hijo>
+    <hijo>Comedia</hijo>
+    <hijo>Asiaticas</hijo>
+    <hijo>Romance</hijo>
+    <hijo>Para morir de risa</hijo>
+  </seccion>
+
+  <seccion>
+    <padre>Categorias</padre>
+    <hijo>Documentales</hijo>
+    <hijo>Dramas</hijo>
+    <hijo>Musica y musicales</hijo>
+    <hijo>Fantasia</hijo>
+    <hijo>Comedia</hijo>
+    <hijo>Terror</hijo>
+    <hijo>Romance</hijo>
+    <hijo>Taquilleras</hijo>
+  </seccion>
+  
+  <seccion>
+    <padre>Reality Show</padre>
+    <padre>Cocina</padre>
+    <hijo>Stand Up</hijo>
+    <hijo>Bailes</hijo>
+  </seccion>
+
+  <seccion>
+    <padre>Tendencias</padre>
+    <hijo>Batalla de amor</hijo>
+    <hijo>Bajo la misma estrella</hijo>
+    <hijo>Agente nocturno</hijo>
+    <hijo>El peso del amor</hijo>
+    <hijo>Titanic</hijo>
+    <hijo>Crepusculo</hijo>
+  </seccion>
+
+  <seccion>
+    <padre>Juegos</padre>
+    <hijo>Bob esponja a cocinar </hijo>
+    <hijo>Mario Bros</hijo>
+    <hijo>Solitario</hijo>
+    <hijo>UNO</hijo>
+    <hijo>Parchis</hijo>
+  </seccion>
+</menu>
